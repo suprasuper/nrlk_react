@@ -1,3 +1,6 @@
+import $ from 'jquery';
+
+
 (function($) {
   "use strict"; // Start of use strict
 
@@ -53,4 +56,4 @@
     e.preventDefault();
   });
 
-})(jQuery); // End of use strict
+})($); // End of use strict
